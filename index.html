@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +17,8 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
-    body, html {
+    body,
+    html {
       cursor: none !important;
     }
 
@@ -144,9 +146,17 @@
     }
 
     @keyframes wipeLeftToRight {
-      0% { transform: translateX(-100%); }
-      50% { transform: translateX(0%); }
-      100% { transform: translateX(100%); }
+      0% {
+        transform: translateX(-100%);
+      }
+
+      50% {
+        transform: translateX(0%);
+      }
+
+      100% {
+        transform: translateX(100%);
+      }
     }
 
     /* ========== 3D CIRCULAR LOADER ========== */
@@ -195,7 +205,8 @@
       position: absolute;
     }
 
-    .pl__dot:before, .pl__dot:after {
+    .pl__dot:before,
+    .pl__dot:after {
       content: "";
       display: block;
       left: 0;
@@ -232,7 +243,9 @@
       z-index: 5;
     }
 
-    .pl__dot:nth-child(1), .pl__dot:nth-child(1):before, .pl__dot:nth-child(1):after {
+    .pl__dot:nth-child(1),
+    .pl__dot:nth-child(1):before,
+    .pl__dot:nth-child(1):after {
       animation-delay: 0s;
     }
 
@@ -241,7 +254,9 @@
       z-index: 4;
     }
 
-    .pl__dot:nth-child(2), .pl__dot:nth-child(2):before, .pl__dot:nth-child(2):after {
+    .pl__dot:nth-child(2),
+    .pl__dot:nth-child(2):before,
+    .pl__dot:nth-child(2):after {
       animation-delay: -0.1666666667s;
     }
 
@@ -250,7 +265,9 @@
       z-index: 3;
     }
 
-    .pl__dot:nth-child(3), .pl__dot:nth-child(3):before, .pl__dot:nth-child(3):after {
+    .pl__dot:nth-child(3),
+    .pl__dot:nth-child(3):before,
+    .pl__dot:nth-child(3):after {
       animation-delay: -0.3333333333s;
     }
 
@@ -259,7 +276,9 @@
       z-index: 2;
     }
 
-    .pl__dot:nth-child(4), .pl__dot:nth-child(4):before, .pl__dot:nth-child(4):after {
+    .pl__dot:nth-child(4),
+    .pl__dot:nth-child(4):before,
+    .pl__dot:nth-child(4):after {
       animation-delay: -0.5s;
     }
 
@@ -268,7 +287,9 @@
       z-index: 1;
     }
 
-    .pl__dot:nth-child(5), .pl__dot:nth-child(5):before, .pl__dot:nth-child(5):after {
+    .pl__dot:nth-child(5),
+    .pl__dot:nth-child(5):before,
+    .pl__dot:nth-child(5):after {
       animation-delay: -0.6666666667s;
     }
 
@@ -277,7 +298,9 @@
       z-index: 1;
     }
 
-    .pl__dot:nth-child(6), .pl__dot:nth-child(6):before, .pl__dot:nth-child(6):after {
+    .pl__dot:nth-child(6),
+    .pl__dot:nth-child(6):before,
+    .pl__dot:nth-child(6):after {
       animation-delay: -0.8333333333s;
     }
 
@@ -286,7 +309,9 @@
       z-index: 2;
     }
 
-    .pl__dot:nth-child(7), .pl__dot:nth-child(7):before, .pl__dot:nth-child(7):after {
+    .pl__dot:nth-child(7),
+    .pl__dot:nth-child(7):before,
+    .pl__dot:nth-child(7):after {
       animation-delay: -1s;
     }
 
@@ -295,7 +320,9 @@
       z-index: 3;
     }
 
-    .pl__dot:nth-child(8), .pl__dot:nth-child(8):before, .pl__dot:nth-child(8):after {
+    .pl__dot:nth-child(8),
+    .pl__dot:nth-child(8):before,
+    .pl__dot:nth-child(8):after {
       animation-delay: -1.1666666667s;
     }
 
@@ -304,7 +331,9 @@
       z-index: 4;
     }
 
-    .pl__dot:nth-child(9), .pl__dot:nth-child(9):before, .pl__dot:nth-child(9):after {
+    .pl__dot:nth-child(9),
+    .pl__dot:nth-child(9):before,
+    .pl__dot:nth-child(9):after {
       animation-delay: -1.3333333333s;
     }
 
@@ -313,7 +342,9 @@
       z-index: 5;
     }
 
-    .pl__dot:nth-child(10), .pl__dot:nth-child(10):before, .pl__dot:nth-child(10):after {
+    .pl__dot:nth-child(10),
+    .pl__dot:nth-child(10):before,
+    .pl__dot:nth-child(10):after {
       animation-delay: -1.5s;
     }
 
@@ -322,7 +353,9 @@
       z-index: 6;
     }
 
-    .pl__dot:nth-child(11), .pl__dot:nth-child(11):before, .pl__dot:nth-child(11):after {
+    .pl__dot:nth-child(11),
+    .pl__dot:nth-child(11):before,
+    .pl__dot:nth-child(11):after {
       animation-delay: -1.6666666667s;
     }
 
@@ -331,7 +364,9 @@
       z-index: 6;
     }
 
-    .pl__dot:nth-child(12), .pl__dot:nth-child(12):before, .pl__dot:nth-child(12):after {
+    .pl__dot:nth-child(12),
+    .pl__dot:nth-child(12):before,
+    .pl__dot:nth-child(12):after {
       animation-delay: -1.8333333333s;
     }
 
@@ -349,11 +384,14 @@
         animation-timing-function: ease-in;
         box-shadow: 0.1em 0.1em 0 0.1em black, 0.3em 0 0.3em rgba(0, 0, 0, 0.3);
       }
+
       25% {
         animation-timing-function: ease-out;
         box-shadow: 0.1em 0.1em 0 0.1em black, 0.8em 0 0.8em rgba(0, 0, 0, 0.5);
       }
-      50%, to {
+
+      50%,
+      to {
         box-shadow: 0.1em 0.1em 0 0.1em black, 0.3em 0 0.3em rgba(0, 0, 0, 0.3);
       }
     }
@@ -364,12 +402,15 @@
         background-color: var(--bg);
         transform: translate(0, 0);
       }
+
       25% {
         animation-timing-function: ease-out;
         background-color: var(--primary2);
         transform: translate(-71%, -71%);
       }
-      50%, to {
+
+      50%,
+      to {
         background-color: var(--bg);
         transform: translate(0, 0);
       }
@@ -381,12 +422,15 @@
         background-color: var(--bg);
         clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
       }
+
       25% {
         animation-timing-function: ease-out;
         background-color: var(--primary1);
         clip-path: polygon(0 25%, 100% 25%, 100% 100%, 0 100%);
       }
-      50%, to {
+
+      50%,
+      to {
         background-color: var(--bg);
         clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0 100%);
       }
@@ -912,8 +956,13 @@
     }
 
     @keyframes ledScan {
-      0% { transform: translateX(-100%); }
-      100% { transform: translateX(100%); }
+      0% {
+        transform: translateX(-100%);
+      }
+
+      100% {
+        transform: translateX(100%);
+      }
     }
 
     .skills-track {
@@ -927,8 +976,13 @@
     }
 
     @keyframes scrollSkills {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
     }
 
     .skill-btn {
@@ -956,7 +1010,7 @@
       color: #000;
       border-color: #fff;
       transform: scale(1.08) translateY(-5px);
-      box-shadow: 
+      box-shadow:
         0 0 40px rgba(255, 255, 255, 0.8),
         0 0 80px rgba(255, 255, 255, 0.5),
         0 0 120px rgba(255, 255, 255, 0.3),
@@ -1317,30 +1371,62 @@
     }
 
     @keyframes drow1 {
-      0% { height: 0; }
-      100% { height: 100px; }
+      0% {
+        height: 0;
+      }
+
+      100% {
+        height: 100px;
+      }
     }
 
     @keyframes drow2 {
-      0% { width: 0; opacity: 0; }
-      10% { opacity: 0; }
-      11% { opacity: 1; }
-      100% { width: 120px; }
+      0% {
+        width: 0;
+        opacity: 0;
+      }
+
+      10% {
+        opacity: 0;
+      }
+
+      11% {
+        opacity: 1;
+      }
+
+      100% {
+        width: 120px;
+      }
     }
 
     @keyframes drow3 {
-      0% { width: 0; }
-      100% { width: 80px; }
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 80px;
+      }
     }
 
     @keyframes drow4 {
-      0% { height: 0; }
-      100% { height: 120px; }
+      0% {
+        height: 0;
+      }
+
+      100% {
+        height: 120px;
+      }
     }
 
     @keyframes drow5 {
-      0% { width: 0; }
-      100% { width: 124px; }
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 124px;
+      }
     }
 
     .cert-arrow {
@@ -1350,8 +1436,15 @@
     }
 
     @keyframes arrowBounce {
-      0%, 100% { transform: translateX(0); }
-      50% { transform: translateX(10px); }
+
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+
+      50% {
+        transform: translateX(10px);
+      }
     }
 
     .cert-description {
@@ -1362,151 +1455,176 @@
       letter-spacing: 0.08em;
       line-height: 1.6;
     }
-/* ========== NEW CLEAN PROJECTS SECTION ========== */
-.projects-container-new {
-  max-width: 1200px;
-  width: 100%;
-  padding: 0 2rem;
-}
 
-.projects-description-new {
-  font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 4rem;
-  letter-spacing: 0.08em;
-  text-align: center;
-}
+    /* ========== NEW CLEAN PROJECTS SECTION ========== */
+    .projects-container-new {
+      max-width: 1200px;
+      width: 100%;
+      padding: 0 2rem;
+    }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 3rem;
-  max-width: 1000px;
-  margin: 0 auto;
-}
+    .projects-description-new {
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 4rem;
+      letter-spacing: 0.08em;
+      text-align: center;
+    }
 
-/* Project Card */
-.project-card-new {
-  background: #ffffff;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
 
-.project-card-new:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
-}
+    /* Project Card */
+    .project-card-new {
+      background: #2a292b;
+      /* Dark background matching loader/theme */
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem;
+      /* Padding around content */
+    }
 
-/* Project Image */
-.project-image-wrapper {
-  width: 100%;
-  height: 280px;
-  overflow: hidden;
-  background: #f5f5f5;
-  position: relative;
-}
+    .project-card-new:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    }
 
-.project-image-new {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
+    /* Project Image */
+    .project-image-wrapper {
+      width: 100%;
+      height: 200px;
+      border-radius: 15px;
+      /* Rounded corners for image */
+      overflow: hidden;
+      background: #f5f5f5;
+      position: relative;
+      margin-bottom: 1.5rem;
+    }
 
-.project-card-new:hover .project-image-new {
-  transform: scale(1.05);
-}
+    .project-image-new {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
 
-/* Project Info */
-.project-info {
-  padding: 2rem;
-  background: #ffffff;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
+    .project-card-new:hover .project-image-new {
+      transform: scale(1.05);
+    }
 
-.project-name {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.8rem;
-  color: #000000;
-  letter-spacing: 0.1em;
-  margin: 0;
-  font-weight: 600;
-}
+    /* Project Info */
+    .project-info {
+      padding: 0;
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Center align items */
+      text-align: center;
+      /* Center text */
+      gap: 0.8rem;
+      flex-grow: 1;
+    }
 
-.project-desc {
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.95rem;
-  color: #555555;
-  line-height: 1.7;
-  letter-spacing: 0.02em;
-  margin: 0;
-}
+    .project-name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      color: #ffffff;
+      letter-spacing: 0.1em;
+      margin: 0;
+      font-weight: 400;
+    }
 
-/* View Project Button */
-.project-view-btn {
-  display: inline-block;
-  padding: 0.85rem 2rem;
-  background: #000000;
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 0.12em;
-  border-radius: 6px;
-  transition: all 0.3s ease;
-  text-align: center;
-  align-self: flex-start;
-  margin-top: 0.5rem;
-}
+    .project-info div.bar-lines {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 0.5rem;
+      align-items: center;
+    }
 
-.project-view-btn:hover {
-  background: #333333;
-  transform: translateX(5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
+    .project-info div.bar-lines span {
+      display: block;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 4px;
+      width: 100%;
+    }
 
-/* Responsive */
-@media (max-width: 968px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
+    .project-info div.bar-lines span:nth-child(2) {
+      width: 90%;
+    }
 
-  .project-image-wrapper {
-    height: 240px;
-  }
+    .project-info div.bar-lines span:nth-child(3) {
+      width: 60%;
+    }
 
-  .project-info {
-    padding: 1.5rem;
-  }
 
-  .project-name {
-    font-size: 1.5rem;
-  }
+    .project-desc {
+      font-family: 'Roboto', sans-serif;
+      font-size: 0.95rem;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.6;
+      letter-spacing: 0.02em;
+      margin: 0;
+      margin-bottom: auto;
+      /* Push button to bottom */
+    }
 
-  .project-desc {
-    font-size: 0.9rem;
-  }
-}
+    /* View Project Button */
+    .project-view-btn {
+      display: inline-block;
+      padding: 0.6rem 2rem;
+      background: #e0e0e0;
+      /* Light background */
+      color: #000000;
+      /* Dark text */
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      /* Clean font */
+      font-weight: 500;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      border-radius: 50px;
+      /* Pill shape */
+      transition: all 0.3s ease;
+      text-align: center;
+      margin-top: 1rem;
+    }
 
-@media (max-width: 580px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
+    .project-view-btn:hover {
+      background: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+    }
 
-  .project-card-new {
-    max-width: 100%;
-  }
+    /* Responsive */
+    @media (max-width: 968px) {
+      .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+      }
 
-  .project-image-wrapper {
-    height: 200px;
-  }
-}
+      .project-image-wrapper {
+        height: 180px;
+      }
+    }
+
+    @media (max-width: 580px) {
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+    }
 
     /* ========== FOOTER ========== */
     .footer {
@@ -1915,6 +2033,7 @@
     }
   </style>
 </head>
+
 <body>
   <!-- SVG Filter for Gooey Effect -->
   <svg class="cursor-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
@@ -1922,7 +2041,7 @@
       <filter id="goo">
         <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
         <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo" />
-        <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        <feComposite in="SourceGraphic" in2="goo" operator="atop" />
       </filter>
     </defs>
   </svg>
@@ -1967,22 +2086,27 @@
         <div class="logo">PORTFOLIO</div>
         <div class="logo-tagline">COMPUTER SCIENCE ENGINEER</div>
       </div>
-      
+
       <div class="social-container">
         <div class="social-icons">
           <a href="https://github.com/SuryaVignesh06" target="_blank" rel="noopener noreferrer" class="Btn github">
             <span class="svgContainer">
               <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+                </path>
               </svg>
             </span>
             <span class="BG"></span>
           </a>
 
-          <a href="https://www.linkedin.com/in/chikkala-venkata-surya-vignesh-82690631b" target="_blank" rel="noopener noreferrer" class="Btn linkedin">
+          <a href="https://www.linkedin.com/in/chikkala-venkata-surya-vignesh-82690631b" target="_blank"
+            rel="noopener noreferrer" class="Btn linkedin">
             <span class="svgContainer">
               <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+                </path>
               </svg>
             </span>
             <span class="BG"></span>
@@ -1991,7 +2115,9 @@
           <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" class="Btn instagram">
             <span class="svgContainer">
               <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z">
+                </path>
               </svg>
             </span>
             <span class="BG"></span>
@@ -2000,7 +2126,9 @@
           <a href="mailto:suryavignesh723rk@gmail.com" class="Btn mail">
             <span class="svgContainer">
               <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+                <path
+                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z">
+                </path>
               </svg>
             </span>
             <span class="BG"></span>
@@ -2030,7 +2158,8 @@
           <p class="hero-greeting">Hi, I am</p>
           <h1 class="hero-name">Surya Vignesh</h1>
           <p class="hero-title">Computer Science Engineer</p>
-          <p class="hero-description">I don't just code—I weave the fabric of tomorrow's digital dreams, where imagination meets innovation.</p>
+          <p class="hero-description">I don't just code—I weave the fabric of tomorrow's digital dreams, where
+            imagination meets innovation.</p>
           <a href="#projects" class="cta-button">View My Work</a>
         </div>
         <div class="hero-image-container">
@@ -2046,8 +2175,12 @@
       <div class="about-content">
         <div class="about-text">
           <h2 class="section-title">About Me</h2>
-          <p>I'm a Computer Science Engineering student at Vishnu Institute of Technology, driven by a passion for creating meaningful digital experiences. I enjoy exploring how technology shapes the world and constantly challenge myself to learn, build, and innovate through hands-on projects and real-world problem-solving.</p>
-          <p>When I'm not coding, you'll find me immersed in music or diving into other developers' projects—studying their ideas, techniques, and creativity to evolve my own craft. I believe growth thrives in curiosity, and I'm always excited to turn inspiration into innovation.</p>
+          <p>I'm a Computer Science Engineering student at Vishnu Institute of Technology, driven by a passion for
+            creating meaningful digital experiences. I enjoy exploring how technology shapes the world and constantly
+            challenge myself to learn, build, and innovate through hands-on projects and real-world problem-solving.</p>
+          <p>When I'm not coding, you'll find me immersed in music or diving into other developers' projects—studying
+            their ideas, techniques, and creativity to evolve my own craft. I believe growth thrives in curiosity, and
+            I'm always excited to turn inspiration into innovation.</p>
         </div>
 
         <div class="about-keywords">
@@ -2069,7 +2202,7 @@
       <div class="skills-container">
         <h2 class="section-title">My Skills</h2>
         <p class="skills-description">Hover to glow, Click to see details</p>
-        
+
         <div class="led-board">
           <div class="skills-track" id="skillsTrack">
             <button class="skill-btn" data-skill="java">JAVA</button>
@@ -2098,9 +2231,10 @@
     <section id="certifications">
       <div class="certifications-container">
         <h2 class="section-title">Certifications</h2>
-        
+
         <div class="cert-button-wrapper">
-          <a href="https://drive.google.com/file/d/1fBc0RB6-Xq0LlnetRON1ujiG3yC0a9Wu/view?usp=sharing" target="_blank" class="cert-button type--A">
+          <a href="https://drive.google.com/file/d/1fBc0RB6-Xq0LlnetRON1ujiG3yC0a9Wu/view?usp=sharing" target="_blank"
+            class="cert-button type--A">
             <div class="cert-button__line"></div>
             <div class="cert-button__line"></div>
             <span class="cert-button__text">PYTHON CERTIFIED</span>
@@ -2109,7 +2243,7 @@
           </a>
           <span class="cert-arrow">→</span>
         </div>
-        
+
         <p class="cert-description">
           Certified by <strong>National Skill Development Corporation</strong><br>
           Click to view certification details
@@ -2117,39 +2251,61 @@
       </div>
     </section>
 
-   <!-- ========== CLEAN PROFESSIONAL PROJECTS SECTION ========== -->
-<section id="projects">
-  <div class="projects-container-new">
-    <h2 class="section-title">Featured Projects</h2>
-    <p class="projects-description-new">Explore my work</p>
-    
-    <div class="projects-grid">
-      <!-- Project 1: Music App -->
-      <div class="project-card-new">
-        <div class="project-image-wrapper">
-          <img src="Bindass.png" alt="Music App Project" class="project-image-new">
-        </div>
-        <div class="project-info">
-          <h3 class="project-name">MUSIC APP</h3>
-          <p class="project-desc">A modern music streaming application with intuitive UI and personalized playlists for seamless listening experience.</p>
-          <a href="https://www.linkedin.com/posts/chikkala-venkata-surya-vignesh-82690631b_uiuxdesign-productdesign-musicapp-activity-7402325095362232320-05jF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFEdSR4B7aGjWaK7rEdaxdx25LyPu5fm6sU" target="_blank" class="project-view-btn">VIEW PROJECT</a>
-        </div>
-      </div>
+    <!-- ========== CLEAN PROFESSIONAL PROJECTS SECTION ========== -->
+    <section id="projects">
+      <div class="projects-container-new">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="projects-description-new">Explore my work</p>
 
-      <!-- Project 2: Sanskriti -->
-      <div class="project-card-new">
-        <div class="project-image-wrapper">
-          <img src="San.png" alt="Sanskriti Project" class="project-image-new">
-        </div>
-        <div class="project-info">
-          <h3 class="project-name">SANSKRITI</h3>
-          <p class="project-desc">Cultural web platform celebrating Indian heritage through music, dance, documentaries, and live experiences.</p>
-          <a href="https://my-site-kd37rpqd-venkatasuryavignes.wix-vibe.com" target="_blank" class="project-view-btn">VIEW PROJECT</a>
+        <div class="projects-grid">
+          <!-- Project 1: Music App -->
+          <div class="project-card-new">
+            <div class="project-image-wrapper">
+              <img src="Bindass.png" alt="Music App Project" class="project-image-new">
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">MUSIC APP</h3>
+              <div class="bar-lines"><span></span><span></span><span></span></div>
+              <p class="project-desc">A modern music streaming application with intuitive UI and personalized playlists
+                for seamless listening experience.</p>
+              <a href="https://www.linkedin.com/posts/chikkala-venkata-surya-vignesh-82690631b_uiuxdesign-productdesign-musicapp-activity-7402325095362232320-05jF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFEdSR4B7aGjWaK7rEdaxdx25LyPu5fm6sU"
+                target="_blank" class="project-view-btn">View project</a>
+            </div>
+          </div>
+
+          <!-- Project 2: Sanskriti -->
+          <div class="project-card-new">
+            <div class="project-image-wrapper">
+              <img src="San.png" alt="Sanskriti Project" class="project-image-new">
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">SANSKRITI</h3>
+              <div class="bar-lines"><span></span><span></span><span></span></div>
+              <p class="project-desc">Cultural web platform celebrating Indian heritage through music, dance,
+                documentaries, and live experiences.</p>
+              <a href="https://my-site-kd37rpqd-venkatasuryavignes.wix-vibe.com" target="_blank"
+                class="project-view-btn">View project</a>
+            </div>
+          </div>
+
+          <!-- Project 3: Crack UI -->
+          <div class="project-card-new">
+            <div class="project-image-wrapper">
+              <!-- Using a placeholder or reusing an image if specific one not available, user can replace -->
+              <img src="Crack.png" alt="Crack UI Project" class="project-image-new">
+            </div>
+            <div class="project-info">
+              <h3 class="project-name">CRACK AI</h3>
+              <div class="bar-lines"><span></span><span></span><span></span></div>
+              <p class="project-desc">A glassmorphism-inspired UI component library designed for modern, sleek, and
+                high-performance web applications.</p>
+              <a href="https://www.linkedin.com/posts/chikkala-venkata-surya-vignesh-82690631b_python-flask-generativeai-activity-7415690027587776512-rXt_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFEdSR4B7aGjWaK7rEdaxdx25LyPu5fm6sU"
+                class="project-view-btn">View project</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
     <!-- FOOTER -->
@@ -2158,32 +2314,42 @@
         <div class="footer-left">
           <div class="footer-info">
             <h2 class="footer-name">SURYA VIGNESH</h2>
-            <p class="footer-tagline">Computer Science Engineer | Full Stack Developer | UI/UX Designer<br>Building digital experiences that inspire and innovate</p>
+            <p class="footer-tagline">Computer Science Engineer | Full Stack Developer | UI/UX Designer<br>Building
+              digital experiences that inspire and innovate</p>
           </div>
 
           <div class="footer-social-icons">
-            <a href="https://github.com/SuryaVignesh06" target="_blank" rel="noopener noreferrer" class="footer-social-btn github">
+            <a href="https://github.com/SuryaVignesh06" target="_blank" rel="noopener noreferrer"
+              class="footer-social-btn github">
               <span class="footer-social-svg">
                 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+                  </path>
                 </svg>
               </span>
               <span class="footer-social-bg"></span>
             </a>
 
-            <a href="https://www.linkedin.com/in/chikkala-venkata-surya-vignesh-82690631b" target="_blank" rel="noopener noreferrer" class="footer-social-btn linkedin">
+            <a href="https://www.linkedin.com/in/chikkala-venkata-surya-vignesh-82690631b" target="_blank"
+              rel="noopener noreferrer" class="footer-social-btn linkedin">
               <span class="footer-social-svg">
                 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z">
+                  </path>
                 </svg>
               </span>
               <span class="footer-social-bg"></span>
             </a>
 
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" class="footer-social-btn instagram">
+            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer"
+              class="footer-social-btn instagram">
               <span class="footer-social-svg">
                 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z">
+                  </path>
                 </svg>
               </span>
               <span class="footer-social-bg"></span>
@@ -2192,7 +2358,9 @@
             <a href="mailto:suryavignesh723rk@gmail.com" class="footer-social-btn mail">
               <span class="footer-social-svg">
                 <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z">
+                  </path>
                 </svg>
               </span>
               <span class="footer-social-bg"></span>
@@ -2238,7 +2406,9 @@
   <!-- Back to Top Button -->
   <button class="button" id="backToTopBtn">
     <svg class="svgIcon" viewBox="0 0 384 512">
-      <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+      <path
+        d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z">
+      </path>
     </svg>
   </button>
 
@@ -2250,7 +2420,7 @@
     const width = 26;
     const idleTimeout = 150;
     let lastFrame = 0;
-    let mousePosition = {x: 0, y: 0};
+    let mousePosition = { x: 0, y: 0 };
     let dots = [];
     let timeoutID;
     let idle = false;
@@ -2265,7 +2435,7 @@
         this.range = width / 2 - width / 2 * this.scale + 2;
         this.limit = width * 0.75 * this.scale;
         this.element = document.createElement("span");
-        gsap.set(this.element, {scale: this.scale});
+        gsap.set(this.element, { scale: this.scale });
         cursor.appendChild(this.element);
       }
 
@@ -2278,13 +2448,13 @@
 
       draw(delta) {
         if (!idle || this.index <= sineDots) {
-          gsap.set(this.element, {x: this.x, y: this.y});
+          gsap.set(this.element, { x: this.x, y: this.y });
         } else {
           this.angleX += this.anglespeed;
           this.angleY += this.anglespeed;
           this.y = this.lockY + Math.sin(this.angleY) * this.range;
           this.x = this.lockX + Math.sin(this.angleX) * this.range;
-          gsap.set(this.element, {x: this.x, y: this.y});
+          gsap.set(this.element, { x: this.x, y: this.y });
         }
       }
     }
@@ -2393,7 +2563,7 @@
     // Intro Button Click
     btn.addEventListener('click', () => {
       wipeOverlay.classList.add('active');
-      
+
       setTimeout(() => {
         introScreen.classList.add('hidden');
         loaderContainer.classList.add('active');
@@ -2406,7 +2576,7 @@
       }, 3000);
     });
 
-        // Hero Section Animations
+    // Hero Section Animations
     function animateHeroSection() {
       gsap.to('.hero-greeting', { opacity: 1, x: 0, duration: 1, delay: 0.2 });
       gsap.to('.hero-name', { opacity: 1, x: 0, duration: 1, delay: 0.4 });
@@ -2457,7 +2627,7 @@
     let lastScroll = 0;
     window.addEventListener('scroll', () => {
       const currentScroll = window.pageYOffset;
-      
+
       if (currentScroll > 100) {
         mainNav.classList.add('hidden');
         glassyNav.classList.add('visible');
@@ -2467,7 +2637,7 @@
         glassyNav.classList.remove('visible');
         backToTopBtn.classList.remove('show');
       }
-      
+
       lastScroll = currentScroll;
     });
 
@@ -2491,11 +2661,11 @@
         e.stopPropagation();
         const skill = btn.dataset.skill;
         const skillInfo = skillsData[skill];
-        
+
         if (skillInfo) {
           popupTitle.textContent = skillInfo.title;
           popupLevel.textContent = skillInfo.level;
-          
+
           popupDetails.innerHTML = '';
           skillInfo.details.forEach(detail => {
             const item = document.createElement('div');
@@ -2503,7 +2673,7 @@
             item.textContent = detail;
             popupDetails.appendChild(item);
           });
-          
+
           popup.classList.add('active');
           popupOverlay.classList.add('active');
         }
@@ -2546,14 +2716,14 @@
       } else {
         currentProjectIndex = (currentProjectIndex - 1 + totalProjects) % totalProjects;
       }
-      
+
       const cardWidth = projectCards[0].offsetWidth;
       const gap = 48; // 3rem gap
       const offset = -(currentProjectIndex * (cardWidth + gap));
-      
+
       projectsTrack.style.animation = 'none';
       projectsTrack.style.transform = `translateX(${offset}px)`;
-      
+
       setTimeout(() => {
         projectsTrack.style.animation = '';
       }, 500);
@@ -2653,7 +2823,7 @@
     window.addEventListener('scroll', throttle(() => {
       const sections = document.querySelectorAll('section[id]');
       const navLinks = document.querySelectorAll('.nav-links a');
-      
+
       let current = '';
       sections.forEach(section => {
         const sectionTop = section.offsetTop;
@@ -2695,4 +2865,5 @@
 
   </script>
 </body>
+
 </html>
